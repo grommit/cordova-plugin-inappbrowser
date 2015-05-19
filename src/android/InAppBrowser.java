@@ -624,6 +624,7 @@ public class InAppBrowser extends CordovaPlugin {
                         return false;
                     }
                 });
+                edittext.setVisibility(View.INVISIBLE);
 
                 // Close/Done button
                 Button close = new Button(cordova.getActivity());
